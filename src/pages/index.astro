@@ -1,0 +1,12 @@
+﻿---
+import Layout from "../layouts/Layout.astro";
+import PostCard from "../components/PostCard.astro";
+import { selected } from '../data/selected';
+import PhotoGrid from "../components/PhotoGrid.astro";
+---
+
+<Layout>
+  <h1 class="gallery-label">Selected</h1>
+<PhotoGrid collection="digital" selectedFiles={selected} />
+</Layout>
+
