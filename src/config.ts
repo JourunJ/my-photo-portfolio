@@ -24,7 +24,7 @@ export const site = {
 export const nav: NavItem[] = [
   { label: 'Selected', href: '/' },
   { label: 'Archive', href: '/archive/' },
-  { label: 'Journal', href: '/blog/' },
+  //{ label: 'Journal', href: '/blog/' },
   { label: 'About', href: '/about' },
 ];
 
@@ -34,6 +34,6 @@ export const nav: NavItem[] = [
 // matching <Icon> in Sidebar.astro and the list in Contact.astro.
 export const social = {
   instagram: 'https://www.instagram.com/bim.us_/',
-  linkedin: 'https://jourunj.github.io/gh-pages/',
+ // linkedin: 'https://jourunj.github.io/gh-pages/',
   github: 'https://github.com/JourunJ',
 };

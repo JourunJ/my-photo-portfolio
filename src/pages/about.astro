@@ -13,59 +13,33 @@ const facts = [
 ---
 
 <Layout
-    title="About"
-    description={`About ${site.name} — photographer and writer.`}
+    title="关于"
+    description="一个生活在日本的业余摄影爱好者，记录日常、风景与偶然吸引目光的事物。"
 >
     <article class="page prose">
-        <h1 class="page__title">About</h1>
+        <h1 class="page__title">关于</h1>
 
         <p class="lede">
-            I'm {site.name} — a photographer and writer, and the person behind
-            the pictures on this site.
+            一名业余爱好者。
         </p>
 
         <p>
-            This is placeholder copy from the template. Write a few short
-            paragraphs about yourself here: where you're based, what draws you to
-            photography, the cameras or film you like, and what you tend to point
-            a lens at. Keep it personal and brief — a paragraph or three is
-            plenty.
+            我喜欢记录日常生活中的细节、途经的风景，以及那些偶然吸引我目光的小事。
+            有些瞬间并没有什么特别之处，只是恰好让我想停下来，看一看，
+            再用相机把它们留下。
         </p>
 
         <p>
-            Photography is how I slow down and pay attention — to light, weather,
-            and the quiet shape of a place. The galleries here gather what I've
-            seen along the way.
+            我仍在学习摄影，也在尝试寻找属于自己的观察方式。
         </p>
 
         <p>
-            I write here, too: a <a href="/blog/tech">Tech Blog</a> for notes on
-            tools and building for the web, and a
-            <a href="/blog/photography">Photo Blog</a> of field notes on light,
-            places, and the craft of photography.
+            这个网站收录了我一路拍下的照片。它是一个私人档案，
+            用来保存、重看，也用来分享我眼中的世界。
         </p>
 
-        <div class="facts">
-            {
-                facts.map((f) => (
-                    <section class="fact">
-                        <h2 class="fact__label">{f.label}</h2>
-                        <p class="fact__line">{f.line}</p>
-                        <p class="fact__muted">{f.muted}</p>
-                    </section>
-                ))
-            }
-        </div>
-
         <p>
-            <a
-                class="text-link"
-                href={social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Find me elsewhere →
-            </a>
+            感谢你的来访。
         </p>
     </article>
 </Layout>
